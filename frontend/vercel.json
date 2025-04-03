@@ -1,0 +1,11 @@
+{
+  "builds": [
+    {
+      "src": "frontend/package.json",  // Đảm bảo thư mục đúng với vị trí của package.json
+      "use": "@vercel/static-build",  // Đảm bảo sử dụng static build
+      "config": {
+        "distDir": "dist"  // Vite mặc định xuất ra thư mục 'dist'
+      }
+    }
+  ]
+}
