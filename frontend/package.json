@@ -1,8 +1,8 @@
 {
   "scripts": {
     "dev": "vite",
-  "build": "next build",
-  "start": "next start"
+ "build": "react-scripts build",
+  "start": "react-scripts start"
   },
   "dependencies": {
     "axios": "^1.8.4",
